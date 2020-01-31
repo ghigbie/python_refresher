@@ -22,9 +22,13 @@ your_set = {4, 5, 6, 7, 8, 9 , 10}
 print("difference: " + my_set.difference(your_set))
 print("discard: " + my_set.discard(4))
 print("difference_update: " + my_set.difference_update(your_set) ) #removes the different elements
-print("isdisjoint: " + my_set.intersection(your_set))
+print("intersection: " + my_set.intersection(your_set))
+print("intersection 2: "+ my_set & your_set)
+print("isdisjoint: " + my_set.intersection(your_set)) # do sets have something in common
 print("issubset: " + my_set.issubset(your_set))
+print("issuperset: " + my_set.issuperset(your_set))
 print("union: " + my_set.union(your_set))
+print("union2: " + my_set | your_set)
 
 
 
