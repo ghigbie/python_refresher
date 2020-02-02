@@ -50,3 +50,19 @@ def sum_list(any_list):
 
 sum = sum_list(new_list)
 print(sum)
+
+my_range = range(0, 30, 2)
+for i in my_range:
+    print(i)
+
+for i, char in enumerate("Helloooo"):
+    print(i, char)
+
+
+def return_index(enum):
+    for i, char in enumerate(list(range(1,100))):
+        if(char == 50):
+            print('------')
+            print(f'index {i} & char {char}')
+
+return_index(enumerate(list(range(100)))s)
